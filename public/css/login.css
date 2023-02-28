@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  .form-bg{
+
+    background-color: rgb(44, 39, 39);
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0 20px 45px -5px rgba(255, 255, 255, 0.1), 0 8px 20px -6px rgba(255, 255, 255, 0.1);
+
+  }
+  
+  
+  form {
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin: 20px 0;
+    display: grid;
+    
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px !important;
+    font-size: 16px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px ;
+    margin-bottom: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  body{
+    background-color:rgb(31 41 55); 
+  }
+  h1{
+    font-family: fantasy;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+  }
+  label{
+    font-size: 1rem;
+    color: white;
+    font-family: cursive;
+   
+  }

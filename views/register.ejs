@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link href="css/regis.css" type="text/css" rel="stylesheet"/> 
+    </head>
+    <body>
+        <% if (locals.error) { %>
+            <p><%= locals.error %></p>
+        <% } else if (locals.message) { %>
+            <p><%= locals.message %></p>
+        <% } %>
+        
+        <div class="form-bg">
+            <div class="container">
+            <h1>☺ สมัครสมาชิก ☺</h1>
+        <form action="/register" method="post">
+            <div class="form-group">
+            <label>ชื่อผู้ใช้:</label><br>
+            <input type="text" name="username"><br>
+            </div>
+            <div class="form-group">
+            <label>รหัสผ่าน:</label><br>
+            <input type="password" name="password"><br><br>
+            </div>
+            <div class="form-group">
+            <label>อีเมล์:</label><br>
+            <input type="email" name="email"><br>
+            </div>
+            <div class="form-group">
+            <label>เบอร์โทรศัพท์:</label><br>
+            <input type="text" name="tel"><br>
+            </div>
+            <div class="form-group">
+            <label>รูป:</label><br>
+            <input type="file" name="img"><br>
+            </div>
+            <input type="submit" class="btn btn-primary btn-block"  value="สมัครสมาชิก">
+        </form>
+    </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   
+</html>

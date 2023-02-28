@@ -1,0 +1,77 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+   * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Sriracha', cursive;
+   }
+   
+   body{
+     background-color: rgb(31 41 55);
+   }
+   
+   .container{
+     max-width: 1920px;
+     margin: auto;
+   }
+   
+   .container h1 {
+     color: white;
+     text-align: center;
+     margin-top: 2rem;
+   }
+   
+   .row{
+       margin: 2rem 0; 
+       display: grid;
+       gap: 3rem 0rem;
+       grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
+   }
+   
+   .book-card{
+     margin: 0 auto;
+     display: flex;
+     border-radius: 25px;
+     width: 900px;
+     height: 18rem;
+     overflow: hidden;
+     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1) !important;
+     background-color: white;
+   }
+   
+   .book-card img{
+     height: auto;
+     width: 230px;
+   }
+   
+   .book-info{
+     padding: 2rem;
+   }
+   
+   .book-text p {
+     width: 550px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+   }
+   
+   .btn {
+     text-decoration: none;
+     color: white;
+     background-color: rgb(8 145 178);
+     padding: 5px 15px;
+     border-radius: 15px;
+   }
+   
+   .btn:hover{
+     background-color: rgb(8, 127, 156);
+   }
+   .card-text{
+    height: 58px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+  }
+  body{
+    background-color: rgb(31 41 55);
+  }
